@@ -6,7 +6,7 @@ https://us05web.zoom.us/j/81136851407?pwd=YnJSN2dIbjdjNE4ydVVhVkkzUmxCZz09
 
 ### Patricia
 
-Resposibilities:
+Resposibilities: Shop/Gallery page and forms
 
 ### Derian
 
@@ -14,7 +14,7 @@ Responsibilities: Mood board management, logo design, design management
 
 ## Sebastian
 
-Responsibilties:
+Responsibilties: Responsive Navbars for each page
 
 ### Eli
 
