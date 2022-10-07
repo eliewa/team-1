@@ -1,5 +1,7 @@
 # Team A-LISTERS
 
+https://us05web.zoom.us/j/81136851407?pwd=YnJSN2dIbjdjNE4ydVVhVkkzUmxCZz09
+
 ## Members
 
 ### Patricia
