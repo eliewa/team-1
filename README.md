@@ -1,6 +1,6 @@
 # Team A-LISTERS
 
-https://us05web.zoom.us/j/81136851407?pwd=YnJSN2dIbjdjNE4ydVVhVkkzUmxCZz09
+https://us05web.zoom.us/j/88527172077?pwd=dGJreEFuRlp6RE8yeUwxSXdyOXZnUT09
 
 ## Members
 
