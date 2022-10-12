@@ -223,7 +223,7 @@ display: inline-block;
 }
 
 .gallery .card {
-  padding-bottom: 2rem;
+  padding: 2rem;
 }
 
 .gallery .card p {
