@@ -33,7 +33,6 @@ header{
   height: 50px;
   background: url(/team-1/assets/images/long_logo.svg) no-repeat left;
   background-size: contain;
-  margin: auto;
 }
 
 .social-icons ul {
@@ -126,7 +125,7 @@ nav .navbar-links ul li:hover::after{
 
   .brand-logo {
     /* logo positioning */
-    
+    position: absolute;
   }
 
   .navbar {
@@ -143,7 +142,7 @@ nav .navbar-links ul li:hover::after{
 
   .navbar-links ul {
     /* navbar ul styling */
-    width: 90%;
+    width: 100%;
     flex-direction: column;
     padding-top: 4rem;
   }
@@ -161,6 +160,11 @@ nav .navbar-links ul li:hover::after{
   .navbar-links.active {
     /* active bar positioning */
     display: flex;
+  }
+
+  nav .navbar-links ul li:hover::after{
+    /* hover styling */
+    width: 15%;
   }
 
   .social-icons {
