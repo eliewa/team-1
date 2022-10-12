@@ -3,25 +3,32 @@
 }
 
 body {
+  /* box styling */
   margin: 0;
   padding: 0;
+  background-color: rgb(232, 114, 243);
+
+  /* font styling */
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   text-transform: uppercase;
-  background-color: rgb(232, 114, 243);
 }
 
 .navbar {
+  /* flex positioning */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+
+  /* background styling */
   background-color: rgba(0, 0, 0, 0.500);
   color: white;
   background-size: contain;
 }
 
 .brand-logo {
+  /* logo styling */
   display: flex;
   width: 200px;
   height: 60px;
@@ -31,16 +38,19 @@ body {
 }
 
 .social-icons ul {
+  /* icon styling */
   display: flex;
   gap: 3rem;
   margin-right: 1.5rem;
 }
 
 .social-icons li {
+  /* list styling */
   list-style: none; 
 }
 
 .social-icons li a {
+  /* anchor styling */
   text-decoration: none;
   color: white;
   padding: 1rem;
@@ -48,6 +58,7 @@ body {
 }
 
 .navbar-links ul {
+  /* link positioning */
   margin: 0;
   margin-left: 1.5rem;
   padding: 0;
@@ -55,84 +66,103 @@ body {
 }
 
 .navbar-links li {
+  /* link styling */
   list-style: none; 
 }
 
 .navbar-links li a {
+  /* anchor styling */
+  display: block;
   text-decoration: none;
   color: white;
   padding: 1rem;
-  display: block;
 }
 
-.navbar-links li a .nav-home{
+/* Trying to make individual page tab highlighted */
+
+/* .navbar-links li a .nav-home{
   text-decoration: none;
   color: yellow;
   padding: 1rem;
   display: block;
-}
+} */
 
 .navbar-links li:hover {
+  /* hover styling */
   background-color: black;
   border-radius: 10px;
 }
 
 .toggle-button {
-  position: absolute;
-  top: 1.2rem;
-  right: 1rem;
+  /* hamburger icon styling */
   display: none;
   flex-direction: column;
   justify-content: space-between;
+  position: absolute;
+  top: 1.2rem;
+  right: 1rem;
   width: 30px;
   height: 21px;
 }
 
 .toggle-button .bar {
+  /* hamburger bar styling */
   height: 3px;
   width: 100%;
   background-color: white;
   border-radius: 10px;
 }
 
+/* hamburger functionality */
 @media (max-width: 693px) {
+
   .toggle-button {
+    /* hamburger box style */
     display: flex;
   }
 
   .brand-logo {
+    /* logo positioning */
     position: absolute;
     margin-left: 1.5rem;
   }
 
   .navbar {
+    /* navbar positioning */
     flex-direction: column;
     align-items: flex-start;
   }
+
   .navbar-links {
+    /* link hiding */
     display: none;
     width: 100%;
   }
 
   .navbar-links ul {
+    /* navbar ul styling */
     width: 90%;
     flex-direction: column;
     padding-top: 4rem;
   }
 
   .navbar-links li {
+    /* navbar li positioning */
     text-align: center;
   }
 
   .navbar-links li a {
+    /* navbar anchor padding */
     padding: 0.5rem 1rem;
   }
 
   .navbar-links.active {
+    /* active bar positioning */
     display: flex;
   }
 
   .social-icons {
+    /* social icon hiding */
     display: none;
     width: 100%;
   }
