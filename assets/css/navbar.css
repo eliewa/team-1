@@ -31,7 +31,7 @@ header{
   right: 4rem;
   width: 200px;
   height: 50px;
-  background: url(/team-1/assets/images/long_logo.svg) no-repeat left;
+  background: url(../images/long_logo.svg) no-repeat left;
   background-size: contain;
 }
 
