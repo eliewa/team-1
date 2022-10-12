@@ -10,6 +10,9 @@ header{
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 
   /* background styling */
   background-color: rgba(0, 0, 0, 0.500);
@@ -17,14 +20,15 @@ header{
   background-size: contain;
 
   /* font styling */
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 18px;
   text-transform: uppercase;
 }
 
 .brand-logo {
   /* logo styling */
-  display: flex;
+  position: relative;
+  right: 4rem;
   width: 200px;
   height: 50px;
   background: url(/team-1/assets/images/long_logo.svg) no-repeat left;
@@ -35,7 +39,7 @@ header{
 .social-icons ul {
   /* icon styling */
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
   margin-right: 1.5rem;
 }
 
@@ -66,23 +70,31 @@ header{
   display: block;
   text-decoration: none;
   color: white;
-  padding: 1rem;
+  padding: 0 15px;
 }
 
-/* Trying to make individual page tab highlighted */
-
-/* .navbar-links li a .nav-home{
+#nav-home{
+  /* selected page styling */
   text-decoration: none;
   color: yellow;
-  padding: 1rem;
-  display: block;
-} */
-
-.navbar-links li:hover {
-  /* hover styling */
-  background-color: black;
-  border-radius: 10px;
 }
+
+nav .navbar-links ul li::after{
+  /* hover styling */
+  content: '';
+  width: 0;
+  height: 1px;
+  background: white;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+nav .navbar-links ul li:hover::after{
+  /* hover styling */
+  width: 75%;
+}
+
 
 .toggle-button {
   /* hamburger icon styling */
@@ -90,7 +102,7 @@ header{
   flex-direction: column;
   justify-content: space-between;
   position: absolute;
-  top: 1.2rem;
+  top: 0.9rem;
   right: 1rem;
   width: 30px;
   height: 21px;
@@ -105,7 +117,7 @@ header{
 }
 
 /* hamburger functionality */
-@media (max-width: 800px) {
+@media (max-width: 1050px) {
 
   .toggle-button {
     /* hamburger box style */
@@ -114,8 +126,7 @@ header{
 
   .brand-logo {
     /* logo positioning */
-    position: absolute;
-    margin-left: 1.5rem;
+    
   }
 
   .navbar {
