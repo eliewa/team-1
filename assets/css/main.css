@@ -173,7 +173,7 @@ display: inline-block;
 
 .banner h2:hover {
   background-color: hsl(270, 50%, 80%);
-  box-shadow: 0 0 10px hsl(270, 50%, 80%);
+  box-shadow: 3px 3px 5px hsla(270, 50%, 80%, 0.5);
 }
 
 .gallery {
