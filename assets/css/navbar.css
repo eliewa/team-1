@@ -26,16 +26,16 @@ header{
   /* logo styling */
   display: flex;
   width: 200px;
-  height: 60px;
+  height: 50px;
   background: url(/team-1/assets/images/long_logo.svg) no-repeat left;
   background-size: contain;
-  margin-right: 10%;
+  margin: auto;
 }
 
 .social-icons ul {
   /* icon styling */
   display: flex;
-  gap: 3rem;
+  gap: 1rem;
   margin-right: 1.5rem;
 }
 
