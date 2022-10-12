@@ -6,34 +6,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>UnReal Design</title>
   <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/navbar.css">
+  <script src="/team-1/assets/js/script.js" defer></script>
   <script src="https://kit.fontawesome.com/50c78812bc.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;400&family=Rubik&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <nav>
-      <div class="hamburger-menu">
-        <span class="fa-solid fa-bars fa-2xl"></span>
-      </div>
-      
-      <div class="links">
+    <nav class="navbar">
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+
+      <div class="navbar-links">
         <ul>
-          <li class="home"><a href="./index.html">HOME</a></li>
-          <li class="shop"><a href="./gallery.html">SHOP</a></li>
-          <li class="about"><a href="./about-us.html">ABOUT US</a></li>
-          <li class="editorial"><a href="./page-404.html">EDITORIAL</a></li>
+          <li><a class="nav-home" href="./index.html">Home</a></li>
+          <li><a class="nav-gallery" href="./gallery.html">Shop</a></li>
+          <li><a class="nav-about" href="./about-us.html">About Us</a></li>
+          <li><a class="nav-editorial" href="./page-404.html">Editorial</a></li>
         </ul>
       </div>
 
-      <div class="logo">
-        <p>UnReal Design</p>
-      </div>
+      <div class="brand-logo"></div>
 
       <div class="social-icons">
         <ul>
-          <li><span class="fa-regular fa-user fa-xl"></span></li>
           <li><span class="fa-solid fa-magnifying-glass fa-xl"></span></li>
           <li class="cart"><span class="fa-solid fa-cart-shopping fa-xl"></span></li>
+          <li><span class="fa-regular fa-user fa-xl"></span></li>
         </ul> 
       </div>
     </nav>

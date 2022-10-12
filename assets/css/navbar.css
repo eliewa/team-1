@@ -1,17 +1,7 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
+header{
   /* box styling */
   margin: 0;
   padding: 0;
-  background-color: rgb(232, 114, 243);
-
-  /* font styling */
-  font-family: 'Poppins', sans-serif;
-  font-size: 18px;
-  text-transform: uppercase;
 }
 
 .navbar {
@@ -25,6 +15,11 @@ body {
   background-color: rgba(0, 0, 0, 0.500);
   color: white;
   background-size: contain;
+
+  /* font styling */
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 .brand-logo {
@@ -47,10 +42,6 @@ body {
 .social-icons li {
   /* list styling */
   list-style: none; 
-}
-
-.social-icons li a {
-  /* anchor styling */
   text-decoration: none;
   color: white;
   padding: 1rem;
@@ -114,7 +105,7 @@ body {
 }
 
 /* hamburger functionality */
-@media (max-width: 693px) {
+@media (max-width: 800px) {
 
   .toggle-button {
     /* hamburger box style */
