@@ -205,6 +205,7 @@ main .limited-editions {
 
 main .limited-editions img {
   width: 40%;
+  min-width: 300px;
   height: auto;
   max-height: 600px;
   object-fit: cover;
