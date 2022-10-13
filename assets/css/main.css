@@ -23,7 +23,7 @@ header h1 {
 }
 
 header {
-  background-image: linear-gradient(rgba(190, 97, 190, 0.356), rgba(255, 255, 255, 0.048)), url(/team-1/assets/images/space-needle.jpg);
+  background-image: linear-gradient(rgba(190, 97, 190, 0.356), rgba(255, 255, 255, 0.048)), url(../images/space-needle.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
