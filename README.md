@@ -35,6 +35,12 @@ https://www.pexels.com/photo/black-and-white-photo-of-clocks-707676/
 
 https://www.pexels.com/photo/person-walking-on-stairs-in-greyscale-photograph-3048527/
 
+https://images.pexels.com/photos/13633066/pexels-photo-13633066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
+
+https://images.pexels.com/photos/13918724/pexels-photo-13918724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
+
+https://images.pexels.com/photos/4238325/pexels-photo-4238325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
+
 https://www.pexels.com/photo/photography-of-motorcycle-parked-near-house-1371724/
 
 https://www.pexels.com/photo/young-happy-woman-smiling-on-bench-6011998/
