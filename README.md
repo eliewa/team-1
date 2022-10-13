@@ -29,6 +29,14 @@ https://images.pexels.com/photos/13915491/pexels-photo-13915491.jpeg?auto=compre
 
 https://images.pexels.com/photos/13878056/pexels-photo-13878056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
 
+https://www.pexels.com/photo/black-and-white-photo-of-man-with-umbrella-3299386/
+
+https://www.pexels.com/photo/black-and-white-photo-of-clocks-707676/
+
+https://www.pexels.com/photo/person-walking-on-stairs-in-greyscale-photograph-3048527/
+
+https://www.pexels.com/photo/photography-of-motorcycle-parked-near-house-1371724/
+
 https://www.pexels.com/photo/young-happy-woman-smiling-on-bench-6011998/
 
 https://www.pexels.com/photo/car-vehicle-vintage-classic-103290/
