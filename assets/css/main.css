@@ -17,7 +17,7 @@ header h1 {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../images/hero-image2.jpg);
+  background-image: linear-gradient(rgba(190, 97, 190, 0.356), rgba(255, 255, 255, 0.048)), url(/team-1/assets/images/space-needle.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -124,23 +124,27 @@ display: inline-block;
 
 .banner h1 {
   padding: 1.5rem;
-  text-shadow: 1px 1px 10px black;
+  text-shadow: 1px 1px 10px white;
+  color: black;
+
 }
 .banner p, h2 {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 400;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
 .banner h2 {
   margin-top: 1rem;
   padding: 1rem;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
 }
 
 .banner h2:hover {
-  background-color: hsl(270, 50%, 80%);
-  box-shadow: 3px 3px 5px hsla(270, 50%, 80%, 0.5);
+  background-color: hsl(0, 100%, 43%);
+  box-shadow: 3px 3px 5px hsla(0, 0%, 100%, 0.5);
 }
 
 .gallery {
