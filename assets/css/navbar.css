@@ -49,7 +49,7 @@ header{
   margin-right: 1.5rem;
 }
 
-.social-icons li {
+.social-icons li a{
   /* list styling */
   list-style: none; 
   text-decoration: none;
