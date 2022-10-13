@@ -181,12 +181,14 @@ display: inline-block;
 }
 
 /* Gallery Cards */
-.gallery .card img {
+.gallery .card img{
   display: block;
   object-fit: cover;
   min-width: 300px;
   width: 20%;
-  margin: 2rem 0;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
 
   /* Image Frame */
   border: 7px solid black;
