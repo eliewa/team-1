@@ -79,6 +79,7 @@ header{
   padding: 0 15px;
 }
 
+
 nav .navbar-links ul li::after{
   /* hover styling */
   content: '';
