@@ -25,14 +25,21 @@ header{
   text-transform: uppercase;
 }
 
-.brand-logo {
-  /* logo styling */
+.brand-logo p{
+  /* logo positioning */
+  min-width: 10rem;
+  margin: auto;
   position: relative;
-  right: 4rem;
-  width: 200px;
-  height: 50px;
-  background: url(../images/long_logo.svg) no-repeat left;
-  background-size: contain;
+  right: 3.5rem;
+  bottom: 4px; 
+
+  /* font styling */
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+  text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.6);
+  text-align: center;
+  color: white;
+  text-transform: none;
 }
 
 .social-icons ul {
