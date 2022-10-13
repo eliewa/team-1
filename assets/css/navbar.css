@@ -22,7 +22,7 @@ header{
   /* font styling */
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 18px;
-  text-transform: uppercase;
+  font-variant: small-caps;
 }
 
 .brand-logo p{
@@ -39,7 +39,7 @@ header{
   text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.6);
   text-align: center;
   color: white;
-  text-transform: none;
+  font-variant: normal;
 }
 
 .social-icons ul {

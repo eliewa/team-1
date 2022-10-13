@@ -21,6 +21,13 @@ Responsibilties: Responsive Navbars for each page, sticky footers with doormat n
 Responsibilties: Home page wireframe, build homepage structure, repo management
 
 ### Attributions
+https://images.pexels.com/photos/1995730/pexels-photo-1995730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
+
+https://images.pexels.com/photos/1366921/pexels-photo-1366921.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
+
+https://images.pexels.com/photos/13915491/pexels-photo-13915491.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
+
+https://images.pexels.com/photos/13878056/pexels-photo-13878056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
 
 https://www.pexels.com/photo/young-happy-woman-smiling-on-bench-6011998/
 
