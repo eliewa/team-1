@@ -224,7 +224,7 @@ main .limited-editions img {
 
 main .limited-editions .text-wrapper {
   max-width: 50%;
-  min-width: 400px;
+  min-width: 300px;
   text-align: center;
   align-self: center;
 }
