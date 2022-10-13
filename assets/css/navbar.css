@@ -30,7 +30,7 @@ header{
   min-width: 10rem;
   margin: auto;
   position: relative;
-  right: 3.5rem;
+  margin-left: 1.5rem;
   bottom: 4px; 
 
   /* font styling */
@@ -127,8 +127,6 @@ nav .navbar-links ul li:hover::after{
 
   .brand-logo {
     /* logo positioning */
-    position: fixed;
-    margin-left: 5rem;
     margin-top: 0.6rem;
   }
 
@@ -148,7 +146,8 @@ nav .navbar-links ul li:hover::after{
     /* navbar ul styling */
     width: 100%;
     flex-direction: column;
-    padding-top: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
   }
 
   .navbar-links li {
