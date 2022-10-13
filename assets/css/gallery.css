@@ -11,6 +11,12 @@
   line-height: 1.5;
 }
 
+#nav-gallery{
+  /* selected page styling */
+  text-decoration: none;
+  color: yellow;
+}
+
 header h1 {
   font-family: 'Lobster', Georgia, cursive;
   font-size: 2.5rem;
@@ -23,40 +29,6 @@ h1 {
 
 h2 {
   font-family: 'Poppins', sans-serif;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 1.5rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
-
-  position: fixed;
-  width: 100%;
-  background-color: black;
-  color: white;
-  z-index: 10;
-}
-
-nav .logo {
-  min-width: 10rem;
-  margin: 0 auto;
-  text-align: center;
-
-  position: relative;
-  bottom: 1rem;
-  left: 2rem;
-}
-
-.hamburger-menu {
-  padding-right: .5rem;
-}
-
-nav .logo p {
-  font-family: 'Lobster', cursive;
-  font-size: 2rem;
-  text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.6);
 }
 
 header .links ul {
@@ -205,25 +177,28 @@ display: inline-block;
   width: 100%;
   display: flex;
   justify-content: space-around;
-  align-items: center;
   flex-wrap: wrap;
 }
 
+/* Gallery Cards */
 .gallery .card img {
-  flex: auto;
   display: block;
   object-fit: cover;
   min-width: 300px;
   width: 20%;
-  height: 50%;
-  margin: 2rem;
+  margin: 2rem 0;
+
+  /* Image Frame */
   border: 7px solid black;
   padding: 12px;
   box-shadow: 3px 3px 10px 1px inset rgba(0, 0, 0, 0.5), 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 .gallery .card {
-  padding: 2rem;
+  padding-bottom: 2rem;
+  min-width: 300px;
+  width: 20%;
+  margin: 0 2rem;
 }
 
 .gallery .card p {
@@ -233,6 +208,7 @@ display: inline-block;
 main {
   display: flex;
   flex-direction: column;
+  background-color: rgb(233, 225, 225);
 }
 
 main a {
@@ -295,30 +271,4 @@ main .limited-editions .text-wrapper {
 .right {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
-}
-
-@media(min-width: 1100px) {
-  .hamburger-menu {
-    display: none;
-  }
-
-  nav .logo p {
-    position: relative;
-    right: 6rem;
-  }
-}
-
-
-@media(max-width: 1100px){
-  header .links {
-    display: none;
-  }
-
-  .social-icons ul .cart {
-    display: none;
-  }
-
-  * {
-    font-size: 16px;
-  }
 }
