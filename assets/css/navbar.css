@@ -79,12 +79,6 @@ header{
   padding: 0 15px;
 }
 
-#nav-home{
-  /* selected page styling */
-  text-decoration: none;
-  color: yellow;
-}
-
 nav .navbar-links ul li::after{
   /* hover styling */
   content: '';
@@ -134,7 +128,7 @@ nav .navbar-links ul li:hover::after{
     /* logo positioning */
     position: fixed;
     margin-left: 5rem;
-    margin-top: 0.9rem;
+    margin-top: 0.6rem;
   }
 
   .navbar {
