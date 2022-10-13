@@ -128,7 +128,7 @@ display: inline-block;
   color: black;
 
 }
-.banner p, h2 {
+.banner p{
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 400;
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
