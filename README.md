@@ -14,7 +14,7 @@ Responsibilities: Mood board management, logo design, design management
 
 ## Sebastian
 
-Responsibilties: Responsive Navbars for each page
+Responsibilties: Responsive Navbars for each page, sticky footers with doormat nav, organizing code
 
 ### Eli
 
