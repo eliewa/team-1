@@ -116,25 +116,26 @@
     padding-left: 2rem;
   }
   */
+
   .social-icons li a span {
     padding: 1rem;
   }
   
   .banner {
-    text-align: center;
     line-height: 1.5;
-    width: 100%x;
+    width: 100%;
 
     /* padding: 3rem; */
-    margin: auto;
+    margin: 0 auto;
     padding-top: 8rem;
     color: black;
     
   }
 
   .banner p {
+    text-align: center;
     min-width: 300px;
-    margin: auto;
+    margin: 0 auto;
     padding: 1rem;
     font-size: 1.5rem;
   }
@@ -163,7 +164,8 @@
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.9) ;
   }
 .card__image {
-    width: 20rem;
+    width: 100%;
+    height: auto;
     padding: 15px;
 }
   .card__content {
