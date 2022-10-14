@@ -45,8 +45,7 @@ header{
 .social-icons ul {
   /* icon styling */
   display: flex;
-  gap: 0.5rem;
-  margin-right: 1.5rem;
+  margin: 0 1.5rem;
 }
 
 .social-icons li a{
@@ -54,8 +53,8 @@ header{
   list-style: none; 
   text-decoration: none;
   color: white;
-  padding: 1rem;
   display: block;
+  padding: 0 4px;
 }
 
 .navbar-links ul {
@@ -103,7 +102,7 @@ nav .navbar-links ul li:hover::after{
   flex-direction: column;
   justify-content: space-between;
   position: absolute;
-  top: 1.5rem;
+  top: 1rem;
   right: 1.5rem;
   width: 35px;
   height: 21px;
@@ -123,11 +122,6 @@ nav .navbar-links ul li:hover::after{
   .toggle-button {
     /* hamburger box style */
     display: flex;
-  }
-
-  .brand-logo {
-    /* logo positioning */
-    margin-top: 0.6rem;
   }
 
   .navbar {
