@@ -84,5 +84,3 @@ https://formspree.io/
 
 - For above and beyond we created a moodboard in figjam
 - figjam link: https://www.figma.com/file/vNM1vA0v9ASzzcJ9Ue7BzJ/TEAM-1?node-id=0%3A1
-
-
