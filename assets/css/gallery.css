@@ -11,6 +11,12 @@
   line-height: 1.5;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 #nav-shop{
   /* selected page styling */
   text-decoration: none;
@@ -165,4 +171,9 @@ display: inline-block;
 
 .gallery .card p {
   text-align: center;
+}
+
+footer {
+  height: auto;
+  margin-top: auto;
 }

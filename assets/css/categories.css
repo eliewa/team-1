@@ -17,6 +17,9 @@
 }
 
 body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-color: #ded4d4;
 }
 
@@ -148,4 +151,9 @@ p {
 
 .sports-card {
   background:  linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)) , url(../images/sports.jpg);
+}
+
+footer {
+  height: auto;
+  margin-top: auto;
 }
