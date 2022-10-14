@@ -39,6 +39,10 @@
     text-align: center;
     background-color: rgb(233, 225, 225);
   }
+  main p{
+    width: 80%;
+  }
+
 h1 {
     font-family: 'Lobster', Georgia, cursive;
     font-size: 2.5rem;
@@ -50,30 +54,35 @@ h2 {
     font-weight:bold;
     font-size: 24px;
    }
+
  
 
 
 .cards { 
+    display: flex;
+    flex-wrap: wrap;
     max-width: 40rem;
     padding: 1.5rem;
 }
 
 .card {
-    display: grid;
-    padding: 10px;
-    grid-template-columns:40% 1fr;
+    display: flex;
+    flex-wrap: column;
+    padding: 1rem;
     gap: 10px;
     align-items:center;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.9) ;
   }
 .card__image {
     width: 70%;
+    min-width: 10rem;
     padding: 1px;}
 
 .card__content {
+        text-align: center;
+        min-width: 10rem;
         line-height: 1.5;
         font-size: 18px;
-        padding: 15px;
         background:rgba(245, 245, 245, 0.6)
   }
   .card__content, h2, p {
