@@ -1,7 +1,7 @@
 * {
   font-family: 'Rubik', Verdana , sans-serif;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
 
   padding: 0;
   margin: 0;
@@ -12,9 +12,17 @@
 }
 
 html {
-  background-color: rgb(233, 225, 225);
+  /* background-color: rgb(233, 225, 225); */
   display: flex;
   flex-direction: column;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.377)), url(../images/shrug.jpg);
+  background-size: cover;
+  background-position: center;
+
+  color: white;
 }
 
 /* Main */
@@ -49,6 +57,7 @@ p {
   margin-inline-end: 0px;  
 }
 
+
 .social-icons ul li {
   padding: 1rem;
 }
@@ -57,11 +66,15 @@ p {
   display: inline-block;
   margin-top: 2rem;
   padding: 0.5rem 1rem;
-  border: 3px solid black;
+  border: 3px solid white;
   background: transparent;
   font-size: 1rem;
-  color: black;
+  color: white;
   text-decoration: none;
   cursor: pointer;
   font-family: "Nunito Sans", Verdana, sans-serif;
+}
+
+.home-button:hover {
+  background-color: black;
 }
