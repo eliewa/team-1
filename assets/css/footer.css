@@ -76,3 +76,7 @@ footer .doormat-nav a:hover::after{
   /* hover styling */
   width: 100%;
 }
+
+footer .footer-logos {
+  margin: auto;
+}
