@@ -29,7 +29,6 @@
     padding-left: 2rem;
     /* padding-right: 1rem; */
   }
-
   main{
     display: flex;
     flex-direction: column;
@@ -40,7 +39,7 @@
     background-color: rgb(233, 225, 225);
   }
   main p{
-    width: 80%;
+    margin: auto;
   }
 
 h1 {
@@ -59,27 +58,32 @@ h2 {
 
 
 .cards { 
-    display: flex;
-    flex-wrap: wrap;
     max-width: 40rem;
     padding: 1.5rem;
 }
 
 .card {
     display: flex;
-    flex-wrap: column;
+    min-width: 15rem;
     padding: 1rem;
     gap: 10px;
     align-items:center;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.9) ;
   }
+
+
+  @media(max-width: 700px) {
+    .card {
+        flex-direction: column;
+    }
+  }
+
 .card__image {
     width: 70%;
-    min-width: 10rem;
     padding: 1px;}
 
 .card__content {
-        text-align: center;
+        padding: 1rem;
         min-width: 10rem;
         line-height: 1.5;
         font-size: 18px;
@@ -90,6 +94,10 @@ h2 {
     margin-top:0;
   }
   .card__content, p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 0;
   }
   .card__link {
