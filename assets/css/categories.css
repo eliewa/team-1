@@ -37,6 +37,14 @@ h2 {
   text-align: center;
 }
 
+h2:hover{
+  border: 2px solid black;
+}
+
+a {
+  color: black;
+}
+
 p {
   color: white;
   width: 100%;
