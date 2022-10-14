@@ -1,0 +1,144 @@
+* {
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     
+    list-style: none;
+    line-height: 1.5;
+    
+  }
+  
+  #nav-about-us{
+    /* selected page styling */
+    text-decoration: none;
+    color: yellow;
+    background: none;
+  }
+
+  .social-icons ul li{
+  width: 30%;
+  display: inline-block;
+  /* padding-left: 10%; */
+  }
+  
+  .social-icons ul li {
+    padding-left: 2rem;
+    /* padding-right: 1rem; */
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgb(233, 225, 225);
+  }
+  main p{
+    width: 80%;
+  }
+
+h1 {
+    font-family: 'Lobster', Georgia, cursive;
+    font-size: 2.5rem;
+
+    padding-top: 3rem;
+  }
+
+h2 {
+    font-weight:bold;
+    font-size: 24px;
+   }
+
+ 
+
+
+.cards { 
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 40rem;
+    padding: 1.5rem;
+}
+
+.card {
+    display: flex;
+    flex-wrap: column;
+    padding: 1rem;
+    gap: 10px;
+    align-items:center;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.9) ;
+  }
+.card__image {
+    width: 70%;
+    min-width: 10rem;
+    padding: 1px;}
+
+.card__content {
+        text-align: center;
+        min-width: 10rem;
+        line-height: 1.5;
+        font-size: 18px;
+        background:rgba(245, 245, 245, 0.6)
+  }
+  .card__content, h2, p {
+
+    margin-top:0;
+  }
+  .card__content, p {
+    margin-bottom: 0;
+  }
+  .card__link {
+    padding: 15px;
+    display: flex;
+    background: #eeeeee;
+    border-bottom: 2px solid #ccc;
+    color: rgb(98, 98, 98);
+    text-decoration:none ;
+
+  }
+
+.card__link:hover{ 
+    transition: 0.5s;
+    text-decoration: underline;
+
+}
+.form {
+    padding-bottom: 3rem;
+}
+
+  form {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    line-height: 0%;
+    margin: auto;
+    padding: 1rem;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.9) ;
+    border: solid #000000 1px;
+    padding-bottom: 1rem
+   }
+
+label, .message, textarea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+input {
+    width: 15rem;
+}
+
+textarea {
+    width: 15rem;
+    height: 10rem;
+}
+   
+   
+
