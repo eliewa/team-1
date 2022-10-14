@@ -18,6 +18,12 @@ html {
 }
 
 body {
+
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
   background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.377)), url(../images/shrug.jpg);
   background-size: cover;
   background-position: center;
@@ -77,4 +83,9 @@ p {
 
 .home-button:hover {
   background-color: black;
+}
+
+footer {
+  height: auto;
+  margin-top: auto;
 }
