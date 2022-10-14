@@ -17,6 +17,7 @@
   color: yellow;
 }
 
+
 header h1 {
   font-family: 'Lobster', Georgia, cursive;
   font-size: 2.5rem;
@@ -25,43 +26,6 @@ header h1 {
 h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 2.5rem;
-}
-
-h2 {
-  font-family: 'Poppins', sans-serif;
-}
-
-header .links ul {
-  display: flex;
-  
-}
-
-header .links ul .home, .shop, .about {
-  padding-right: 1.5rem;
-}
-
-header .links ul li a {
-  color: white;
-}
-
-header .links .shop a {
-  border-bottom: 1px solid white;
-}
-
-
-header .links ul li::after{
-  content: '';
-  width: 0;
-  height: 1px;
-  background: white;
-  display: block;
-  margin: auto;
-  transition: 0.5s;
-
-}
-
-header .links ul li:hover::after{
-  width: 100%;
 }
 
 .banner {
