@@ -185,10 +185,10 @@ display: inline-block;
   display: block;
   object-fit: cover;
   min-width: 300px;
+  min-height: 450px;
   width: 20%;
   margin: auto;
-  margin-top: 5rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 
   /* Image Frame */
   border: 7px solid black;
@@ -197,7 +197,7 @@ display: inline-block;
 }
 
 .gallery .card {
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
   min-width: 300px;
   width: 20%;
   margin: 0 2rem;
