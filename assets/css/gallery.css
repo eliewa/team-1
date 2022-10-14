@@ -98,12 +98,6 @@ ul.breadcrumb li a:hover {
   color: black;
 }
 
-@media screen and (max-width: 1023px){
-  .container {
-    width: 100%;
-  }
-}
-
 .container {
   margin: 0 auto;
   max-width: 100%;
