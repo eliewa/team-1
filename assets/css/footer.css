@@ -1,0 +1,70 @@
+footer {
+  /* background positioning */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* background styling */
+  background-color: rgba(0, 0, 0, 0.911);
+  background-size: cover;
+  padding: 3rem 0 1rem 0;
+  height: 30%;
+
+  /* font styling */
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-variant: small-caps;
+  color: white;
+}
+
+.doormat-nav{
+  /* footer positioning */
+  border-bottom: 2px solid rgb(255, 230, 0);
+  width: 100%;
+}
+
+.doormat-nav ul {
+  /* link positioning */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 3rem;
+}
+
+.doormat-nav ul a {
+  /* link styling */
+  color: white;
+  font-size: 1.5rem;
+}
+
+.footer-logos ul li{
+  /* logo positioning */
+  display: inline-block;
+  padding: 1rem 1rem 0 1rem;
+  height: 50%;
+  text-align: center;
+}
+
+.footer-logos a{
+  /* icon styling */
+  color: white;
+  text-decoration: none;
+}
+
+footer .doormat-nav a::after{
+  /* hover styling */
+  content: '';
+  width: 0;
+  height: 1px;
+  background: white;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+footer .doormat-nav a:hover::after{
+  /* hover styling */
+  width: 100%;
+}
