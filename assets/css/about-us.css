@@ -122,21 +122,20 @@
   }
   
   .banner {
-    text-align: center;
     line-height: 1.5;
     width: 100%;
 
     /* padding: 3rem; */
-    margin: auto;
+    margin: 0 auto;
     padding-top: 8rem;
     color: black;
     
   }
 
   .banner p {
-    width: 100%;
+    text-align: center;
     min-width: 300px;
-    margin: auto;
+    margin: 0 auto;
     padding: 1rem;
     font-size: 1.5rem;
   }
