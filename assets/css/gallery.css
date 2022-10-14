@@ -178,6 +178,7 @@ display: inline-block;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding-top: 3rem;
 }
 
 /* Gallery Cards */

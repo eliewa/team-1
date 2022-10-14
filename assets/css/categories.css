@@ -11,6 +11,10 @@
   line-height: 1.5;
 }
 
+body {
+  background-color: #ded4d4;
+}
+
 #nav-gallery{
   /* selected page styling */
   text-decoration: none;
@@ -23,8 +27,8 @@ h1 {
   width: 10rem;
   margin: 0 auto;
   text-align: center;
-  padding-top: 15%;
-  padding-bottom: 5%;
+  padding-top: 8rem;
+  padding-bottom: 2.5rem;
 }
 
 h2 {
@@ -51,6 +55,11 @@ p {
   margin: auto;
   text-align: center;
 }
+
+.social-icons li a span {
+  padding: 1rem;
+}
+
 
 .card-container {
   display: flex;
