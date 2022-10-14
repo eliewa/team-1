@@ -14,6 +14,9 @@
 body {
   background-color: #ded4d4;
 }
+main {
+  padding-bottom: 3rem;
+}
 
 #nav-gallery{
   /* selected page styling */
