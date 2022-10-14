@@ -1,19 +1,25 @@
 * {
+  /* default font */
   font-family: 'Rubik', Arial, Helvetica, sans-serif;
   text-decoration: none;
   font-size: 18px;
 
+  /* box-model */
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 
+  /* list style  */
   list-style: none;
+
+  /* default line-height */
   line-height: 1.5;
 }
 
 body {
   background-color: #ded4d4;
 }
+
 main {
   padding-bottom: 3rem;
 }
@@ -25,22 +31,30 @@ main {
 }
 
 h1 {
+  /* font */
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 2.5rem;
+
+  /* box-model  */
   width: 100%;
   margin: 0 auto;
-  text-align: center;
   padding-top: 8rem;
   padding-bottom: 2.5rem;
+
+  /* text */
+  text-align: center;
 }
 
 h2 {
+  /* font */
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   background-color: white;
+  
+  /* box-model */
   width: 5rem;
-
   padding: 1rem;
   margin: auto;
+  
   text-align: center;
 }
 
@@ -54,8 +68,12 @@ a {
 
 p {
   color: white;
+
+  /* box-model */
   width: 100%;
   margin: auto;
+
+
   text-align: center;
 }
 
@@ -65,6 +83,7 @@ p {
 
 
 .card-container {
+  /* flex-box */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -72,15 +91,17 @@ p {
 }
 
 .card-container div {
+  /* background */
   background-size: cover;
   background-repeat: no-repeat;
-
   background-position: center;
+
+  /* box-model */
   min-width: 350px;
   min-height: 250px;
-  
   margin: 1rem;
 
+  /* flex-box */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,11 +109,13 @@ p {
 }
 
 .card-container p, h2 {
+  /* box-model */
   min-width: 8rem;
   margin: 0 auto;
   padding: 0.5rem;
 }
 
+/* Individual cards */
 .auto-card {
  background:  linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)) , url(../images/car.jpeg);
 } 
