@@ -64,6 +64,8 @@ Responsibilties: Home page wireframe, build homepage structure, build gallery, r
 
 <https://unsplash.com/photos/-ROKY-TemRY>
 
+<https://www.pexels.com/photo/puzzled-gamer-in-illuminated-room-3930070/>
+
 ### Icons
 
 <https://fontawesome.com/>
