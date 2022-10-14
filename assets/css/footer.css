@@ -1,8 +1,15 @@
+body {
+min-height: 100vh;
+margin: 0;
+}
+
+
 footer {
   /* background positioning */
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
+  
 
   /* background styling */
   background-color: rgba(0, 0, 0, 0.911);
@@ -15,6 +22,7 @@ footer {
   font-size: 18px;
   font-variant: small-caps;
   color: white;
+
 }
 
 .doormat-nav{
@@ -60,7 +68,7 @@ footer .doormat-nav a::after{
   height: 1px;
   background: white;
   display: block;
-  margin: auto;
+  margin: 0 auto;
   transition: 0.5s;
 }
 
